@@ -1,1 +1,3 @@
-# TP_AySO\nAlumno: Ayelen Leider\nDivision: 312\nTurno: Noche
+Alumno: Ayelen Leider
+Division: 312
+Turno: Noche
