@@ -1,0 +1,167 @@
+sudo apt update
+pwd
+ssh-keygen
+ll
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit 
+ll
+mkdir repogit_2
+cd
+cd repogit_2
+git clone git@github.com:aleider94/TP_AySO.git
+ll
+cd TP_AySO/
+ll
+cat README.md 
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release 
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ll
+git status
+git add .
+git status
+git config --global user.email "TU-email"
+git config --global user.email "ayelenleider0@gmail.com"
+git config --global user.email "aleider94"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git config --global --unset user.email
+git config --global --list
+ll
+git status
+git config --global --list
+ls
+ll
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git confg --global user.name "ayelenlieder0@gmail.com"
+git config --global user.name "ayelenleider0@gmail.com"
+ll
+git config --global --unset user.name
+git config --global --unset user.email
+git config --global --list
+ll
+git config --global user.email "ayelenleider0@gmail.com"
+git config --global user.name "aleider94"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+grep
+cat /proc/cpuinfo
+cat/proc/cpuinfo | grep "modelname"
+cat/proc/cpuinfo | grep "model name"
+cat /proc/cpuinfo | grep "model name"
+cat /proc/cpuinfo | grep "model name" | head -n1
+head /proc/cpuinfo | grep "model name"
+head /proc/cpuinfo | grep "model name" >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add .
+git commit -m “feat: Añadiendo información de CPU”
+git commit -m "feat: Añadiendo información de CPU"
+man grep
+grep -v nologin /etc/passwd > lista_ordenada.txt
+ll
+cat lista_ordenada.txt 
+sort lista_ordenada.txt -t ":" -k7
+sort lista_ordenada.txt -t ":" -k7 >
+sort lista_ordenada.txt -k7 > lista_ordenada.txt 
+cat lista_ordenada.txt 
+
+grep -v nologin /etc/paswd > lista_ordenada.txt 
+grep -v nologin /etc/passwd > lista_ordenada.txt 
+cat lista_ordenada.txt 
+grep -v nologin /etc/passwd > lista_ordenada.txt | sort lista_ordenada.txt -k7 > lista_ordenada.txt 
+cat lista_ordenada.txt 
+grep -v nologin /etc/passwd >lista_ordenada.txt 
+cat lista_ordenada.txt 
+git add .
+git commit -n "ADD: Listado de usuarios ordenada"
+git commit -m "ADD: Listado de usuarios ordenada"
+man apropos
+apropos "dump traffic"
+apropos dump traffic
+app install dump
+apt instal dump
+apt install dump
+sudo apt upgrade && sudo apt install dump -y
+man dump
+apropos "dump traffic"
+aporpost "dump traffic" >> "comando_dump_net"
+apropos "dump traffic" > comando_dump_net
+cat comando_dump_net
+git clone git@github.com:aleider94/TP_AySO.git
+ll
+cd TP_AySO
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git status
+ls -la
+apropost "dump traffic" > comando_dump_net
+apropos "dump traffic" > comando_dump_net
+ll
+git pull
+ll
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git add TP_AySO/ comando_dump_net
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git status
+git push origin main
+git status
+ll
+git pull
+apropos "dump traffic" > comando_dump_net
+ll
+git status
+apropos "dump traffic" > comando_dump_net
+ll
+cd
+ll
+cd repogit_2
+ll
+cd TP_AySO/
+LL
+ll
+git add .
+git rm --cached TP_AySO
+git status
+cd
+ll
+repogit_2
+cd repogit_2
+ll
+cd TP_AySO/
+LL
+ll
+rmdir nombre_de_la_carpeta
+ll
+rm -r TP_AySO/
+ll
+rm -ri TP_AySO
+y
+ll
+rm -r TP_AySO
+ll
+git add .
+git commint -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat << END >> README.md > Alumno: Ayelen Leider > Division:  
+Division : 312
+Turno : Noche
+END
+
+cat << END >> README.md 
+Alumno: Ayelen Lieder
+Division: 312
+Turno: Noche
+END
+
+cat README.md 
+git add .
+git commit -m "Se agrega al README los datos del alumno"
+history -a
